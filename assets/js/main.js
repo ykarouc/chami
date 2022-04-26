@@ -1,5 +1,4 @@
 (function ($) {
-
   "use strict";
 
   /*
@@ -10,7 +9,7 @@
   | Version: 1.0.0
   |--------------------------------------------------------------------------
   |--------------------------------------------------------------------------
-  | TABLE OF CONTENTS:
+  | TABLE OF CONTENTS:f
   |--------------------------------------------------------------------------
   |
   | 1. Placeholder
@@ -275,7 +274,11 @@
   --------------------------------------------------------------*/
   function slickInit() {
     $('.st-slider').each(function () {
-      // Slick Variable
+      // Slick Variableono
+      console.log(
+
+        "hello world"
+      )
       var $ts = $(this).find('.slick-container');
       var $slickActive = $(this).find('.slick-wrapper');
       var $sliderNumber = $(this).siblings('.slider-number');

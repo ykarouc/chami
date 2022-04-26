@@ -3786,6 +3786,8 @@ hr {
     font-weight: 400;
     color: #0cb8b6; }
 
+
+
 @media screen and (max-width: 991px) {
   .st-news-letter-number {
     font-size: 20px;
@@ -4864,7 +4866,7 @@ hr {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 30px;
+  width: 50px;
   left: 50%;
   margin-left: -15px;
   cursor: ew-resize; }
